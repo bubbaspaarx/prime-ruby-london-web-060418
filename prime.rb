@@ -1,5 +1,4 @@
+require 'prime'
 def prime?(num)
-  while num % (1..num) == 0
-    true
-  end
+  Prime.prime?(num)
 end
