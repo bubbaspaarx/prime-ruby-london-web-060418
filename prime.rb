@@ -1,3 +1,3 @@
 def prime?(num)
-  num % num == 0
+  while num % (1..num) == 0
 end
